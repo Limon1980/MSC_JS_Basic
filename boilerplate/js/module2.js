@@ -1,3 +1,5 @@
+document.body.innerHTML = prompt('Введите любой html-код в системное окно')
+
 var many = parseFloat(prompt('сколько у вас с собой есть денег?'))
 var aple = parseFloat(prompt('сколько кг вы купили яблок?'))
 var baton = parseFloat(prompt('сколько вы купили батонов хлеба?'))
