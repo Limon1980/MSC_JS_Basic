@@ -5,5 +5,4 @@ var all_aple = aple*parseFloat(prompt('сколько   стоит один к
 var all_baton = baton*parseFloat(prompt('сколько стоит один батон ?'));
 many = many - (all_aple+all_baton);
 var raz = many > 0;
-document.body.innerHTML = raz;
-document.body.innerHTML = 'Осталось денег '+many;
+document.body.innerHTML = 'Денег хватило '+raz+ '<br>Осталось денег '+many;
