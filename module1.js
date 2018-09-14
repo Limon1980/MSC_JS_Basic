@@ -1,0 +1,1 @@
+document.body.innerHTML = prompt('Введите любой html-код в системное окно')
